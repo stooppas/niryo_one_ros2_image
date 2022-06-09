@@ -15,8 +15,7 @@ This image doesn't automatically launch the Niryo One Driver.
 - Add udev files from this repo to /etc/udev/rules.d
 - Add following line to config.txt: ```dtparam=uart0=on```
 - Remove ```console=serial0``` from cmdline.txt
-- Install following packages with apt:  
-  - python3-rpi.gpio 
-  - ros-humble-ros2-controllers
-  - ros-humble-ros-humble-gripper-controllers
 - Run ```rosdep install --from-paths src --ignore-src -y```
+- Install following package with apt:  
+  - ros-humble-gripper-controllers
+
