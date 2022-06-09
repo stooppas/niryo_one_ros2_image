@@ -10,7 +10,8 @@ This image doesn't automatically launch the Niryo One Driver.
 - Add Network Connection to ```/etc/netplan/50-cloud-init.cfg```
 
 # How to build your own
-- Install 64 Bit Ubuntu 22.04 Server image
+- Flash 64 Bit Ubuntu 22.04 Server image
+  - Make sure to set up username (niryo), password (robotics), ssh and the wifi to connect to
 - Install Network-Manager with sudo ``apt-get install network-manager``
 - Set Network-Manager as default renderer by replacing ```networkd``` with ```NetworkManager``` in ```/etc/netplan/50-cloud-init.cfg```
 - Add udev files from this repo to /etc/udev/rules.d
