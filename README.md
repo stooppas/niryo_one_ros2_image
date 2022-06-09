@@ -19,3 +19,4 @@ This image doesn't automatically launch the Niryo One Driver.
   - python3-rpi.gpio 
   - ros-humble-ros2-controllers
   - ros-humble-ros-humble-gripper-controllers
+- Run ```rosdep install --from-paths src --ignore-src -y```
