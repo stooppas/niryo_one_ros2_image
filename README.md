@@ -4,6 +4,7 @@ The Raspberry Pi image for my ROS2 Port
 This image doesn't automatically launch the Niryo One Driver. 
 
 # How to install
+- Download image from [here](https://pamisto-my.sharepoint.com/:u:/g/personal/pascal_stoop_pasto_ch/EWUDUtK2NXNOqs5qzQERD3oBsJbtyU_BScugnc-5wzxOAg?e=ktAvf8)
 - Flash .img file onto sd card
 - (If needed change hostname in /etc/hostname and in /boot/firmware/user-data)
 - Add Network Connection to ```/etc/netplan/50-cloud-init.cfg```
